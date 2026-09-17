@@ -38,13 +38,9 @@ After deployment, the site will be available at:
   - `static/` - CSS, JS, and image assets
   - `pages/` - Additional HTML pages
   - `ub-logo.png` - Site logo
-  - `astropanchanga/` - AstroPanchanga product marketing landing page
-    - `index.html` - AstroPanchanga landing page
-    - `assets/` - App icons and screenshots
 - `firebase.json` - Firebase Hosting configuration
 - `.firebaserc` - Firebase project settings
 
-## Important: Safe Deployment
+## Future Products
 
-**Production deployment is safe only when BOTH homepage and astropanchanga exist in the tree.**
-This PR includes both the live homepage files AND `/astropanchanga`, so Firebase Hosting can deploy without wiping either path.
+The `public/astropanchanga/` path is reserved for a future product landing page.
